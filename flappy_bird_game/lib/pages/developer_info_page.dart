@@ -8,12 +8,19 @@ class DeveloperInfoPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 10, 74, 12),
-      body: ElevatedButton(
-        onPressed: () {
-          Navigator.pop(context);
-        },
-        child: Text("Go back"),
+      body: Container(
+        decoration: const BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage('assets/images/background_image.jpg'),
+                fit: BoxFit.cover)),
+        child: Center(
+          child: ElevatedButton(
+            onPressed: () {
+              Navigator.pop(context);
+            },
+            child: const Text("Go back"),
+          ),
+        ),
       ),
     );
   }
