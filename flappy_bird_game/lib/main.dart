@@ -1,4 +1,5 @@
 import 'package:flappy_bird_game/pages/home_page.dart';
+import 'package:flappy_bird_game/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Flappy bird",
-      home: HomePage(),
+      home: LoginPage(),
     );
   }
 }
