@@ -53,18 +53,24 @@ class HomePage extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
+
+
               SizedBox(
-                width: 200,
+                width: 250,
                 child: ElevatedButton(
                   onPressed: () {
                     // Handle Play button press
                   },
                   style: ElevatedButton.styleFrom(
                     primary:
-                        const Color.fromARGB(255, 91, 183, 96), // Green color
+                        const Color.fromARGB(255, 84, 215, 88), // Green color
                     padding:
                         const EdgeInsets.symmetric(vertical: 12), // Vertical padding
                     shape: RoundedRectangleBorder(
+                      side: const BorderSide(
+                              color: Color.fromARGB(255, 100, 75, 66), // Brown border color
+                              width: 2.0, // Thickness of the border
+                            ),
                       borderRadius:
                           BorderRadius.circular(20), // Rounded corners
                     ),
@@ -72,6 +78,7 @@ class HomePage extends StatelessWidget {
                   child: const Text(
                     "Play",
                     style: TextStyle(
+                      fontFamily: 'KodeMono',
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
                       letterSpacing: 1.2,
@@ -80,9 +87,12 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
               ),
+
+
+
               const SizedBox(height: 20),
               SizedBox(
-                width: 200,
+                width: 250,
                 child: ElevatedButton(
                   onPressed: () {
                     Navigator.push(
@@ -93,10 +103,14 @@ class HomePage extends StatelessWidget {
                   },
                   style: ElevatedButton.styleFrom(
                     primary:
-                        const Color.fromARGB(255, 91, 183, 96), // Green color
+                        const Color.fromARGB(255, 84, 215, 88), // Green color
                     padding:
                         const EdgeInsets.symmetric(vertical: 12), // Vertical padding
                     shape: RoundedRectangleBorder(
+                      side: const BorderSide(
+                              color: Color.fromARGB(255, 100, 75, 66), // Brown border color
+                              width: 2.0, // Thickness of the border
+                            ),
                       borderRadius:
                           BorderRadius.circular(20), // Rounded corners
                     ),
@@ -104,6 +118,7 @@ class HomePage extends StatelessWidget {
                   child: const Text(
                     'View Scores',
                     style: TextStyle(
+                      fontFamily: 'KodeMono',
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
                       letterSpacing: 1.2,
@@ -114,7 +129,7 @@ class HomePage extends StatelessWidget {
               ),
               const SizedBox(height: 20),
               SizedBox(
-                width: 200,
+                width: 250,
                 child: ElevatedButton(
                   onPressed: () {
                     Navigator.push(
@@ -125,10 +140,14 @@ class HomePage extends StatelessWidget {
                   },
                   style: ElevatedButton.styleFrom(
                     primary:
-                        const Color.fromARGB(255, 91, 183, 96), // Green color
+                        const Color.fromARGB(255, 84, 215, 88), // Green color
                     padding: const EdgeInsets.symmetric(
                         vertical: 12), // Vertical padding
                     shape: RoundedRectangleBorder(
+                      side: const BorderSide(
+                              color: Color.fromARGB(255, 100, 75, 66), // Brown border color
+                              width: 2.0, // Thickness of the border
+                            ),
                       borderRadius:
                           BorderRadius.circular(20), // Rounded corners
                     ),
@@ -136,6 +155,7 @@ class HomePage extends StatelessWidget {
                   child: const Text(
                     'Developer Info',
                     style: TextStyle(
+                      fontFamily: 'KodeMono',
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
                       letterSpacing: 1.2,
@@ -146,17 +166,21 @@ class HomePage extends StatelessWidget {
               ),
               const SizedBox(height: 20),
               SizedBox(
-                width: 200,
+                width: 250,
                 child: ElevatedButton(
                   onPressed: () {
                     exit(0);
                   },
                   style: ElevatedButton.styleFrom(
                     primary:
-                        const Color.fromARGB(255, 91, 183, 96), // Green color
+                        const Color.fromARGB(255, 84, 215, 88), // Green color
                     padding:
                         const EdgeInsets.symmetric(vertical: 12), // Vertical padding
                     shape: RoundedRectangleBorder(
+                      side: const BorderSide(
+                              color: Color.fromARGB(255, 100, 75, 66), // Brown border color
+                              width: 2.0, // Thickness of the border
+                            ),
                       borderRadius:
                           BorderRadius.circular(20), // Rounded corners
                     ),
@@ -164,6 +188,7 @@ class HomePage extends StatelessWidget {
                   child: const Text(
                     'Quit',
                     style: TextStyle(
+                      fontFamily: 'KodeMono',
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
                       letterSpacing: 1.2,
